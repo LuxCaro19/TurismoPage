@@ -1,6 +1,7 @@
 body{
 
     margin: 0px;
+    background-color: thistle;
 
 }
 
@@ -71,10 +72,22 @@ body{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 10px; 
     padding-top: 80px;     
 
+}
+
+.destinos h1{
+
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.destinos h2{
+
+    text-align: center;
+    padding: 50px;
 }
 
 .destinos img{
@@ -82,5 +95,140 @@ body{
     width: 100%;
     height: auto;
 
+
+}
+
+
+.destinoArido{
+
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 15px 3px gray;
+}
+
+.destinoTropical{
+
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    background-color: white;
+    
+    box-shadow: 3px 3px 15px 3px gray;
+}
+.destinoNordico{
+
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    background-color: white;
+    
+    box-shadow: 3px 3px 15px 3px gray;
+}
+
+.detalleTurismo{
+
+    background-color: white;
+
+}
+
+.imagenReferencial img{
+
+    width: 100%;
+    height: auto;
+
+}
+
+.descripcion p{
+
+    text-align: justify;
+    padding: 10px;
+
+}
+
+.descripcion h2{
+
+    text-align: center;
+
+}
+
+.suscripciones{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 25%;
+}
+
+.suscripciones input{
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+.suscripciones button{
+
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.footer{
+
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 60px;
+    background-color: white;
+
+}
+
+.footer h3{
+
+    text-align: center;
+
+}
+
+
+.menu ul{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.menu ul li {
+
+    
+    list-style-type: none;
+    
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    
+}
+
+
+
+.redesSocial{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.redesSocial img{
+
+    
+    width: 30px;
 
 }
