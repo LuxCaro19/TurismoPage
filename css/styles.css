@@ -1,0 +1,48 @@
+.principal{
+
+    background-image: url(../img/background_phone.jpg);
+    padding-bottom: 100%;
+
+
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+.menuHeader img{
+
+    width: 30px;
+
+}
+
+.menuHeader ul{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.menuHeader li{
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.menuHeader ul li {
+
+    list-style-type: none;
+    
+}
+
+
+.menuHeader ul li a {
+    text-decoration: none;
+}
