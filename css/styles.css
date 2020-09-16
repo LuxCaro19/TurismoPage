@@ -88,14 +88,15 @@ body{
     display: flex;
     flex-direction: column;
     margin: 10px; 
-    padding-top: 80px;  
+   
 
 }
 
-.destinos h1{
+.fondoDestinos h1{
 
     padding-bottom: 20px;
     text-align: center;
+    padding-top: 80px;  
 
 }
 
@@ -251,5 +252,97 @@ body{
 
     
     width: 30px;
+
+}
+
+.infoEstudiante{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.infoEstudiante img{
+
+    width: 200px;
+
+}
+
+
+@media screen and (min-width: 728px){
+
+
+    .principal{
+
+        background-image: url(../img/background_desktop.jpg);
+        margin: 10px;
+        background-repeat: no-repeat;
+        padding-bottom: 0%;
+
+
+    }
+
+    .destinos{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px; 
+    
+    }
+
+
+    .detalleTurismo{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+
+    }
+
+    .descripcion h2{
+
+        padding-top: 40px;
+
+    }
+
+    .descripcion p{
+
+        padding: 100px;
+
+    }
+
+
+    .footer{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .redesSocial{
+
+        padding-top: 50px;
+        padding-bottom: 30px;
+
+    }
+
+    .menu ul{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+    
+    }
+
+    .menu h3{
+
+        padding: 20px;
+    }
+
+
+
+
+
 
 }
