@@ -52,13 +52,13 @@ body{
 
     display: flex;
     flex-direction: row;
+    
 
 }
 
 .menuHeader li{
 
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 10px;
 
 }
 
@@ -69,6 +69,18 @@ body{
 
 .menuHeader ul li a {
     text-decoration: none;
+    color: white;
+}
+
+.menuHeader button{
+
+    
+    padding-bottom: 7px;
+    padding-top: 2px;
+    background: rgba(17, 102, 102, 0);
+    border-color: rgb(47, 85, 167);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .tituloPrincipal{
@@ -198,6 +210,9 @@ body{
     padding-right: 40%;
     padding-top: 8px;
     padding-bottom: 8px;
+    background: rgba(17, 102, 102, 0);
+    border-color: rgb(31, 104, 172);
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -286,6 +301,12 @@ body{
 
 }
 
+.menu a{
+
+    color: white;
+
+}
+
 
 @media screen and (min-width: 728px){
 
@@ -358,6 +379,8 @@ body{
         padding: 20px;
     }
 
+
+
     
     .suscripciones input{
         padding-left: 8%;
@@ -380,10 +403,51 @@ body{
     }
 
 
+    .tituloPrincipal{
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        color: rgb(255, 255, 255);
+    
+    
+    }
 
+    .destinoArido{
 
+        margin: 30px;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+        background-color: rgba(255, 255, 255, 0.747);
+        box-shadow: 3px 3px 15px 3px gray;
+    }
+    
+    .destinoTropical{
+        
+        margin: 30px;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+        background-color:rgba(255, 255, 255, 0.747);
+        
+        box-shadow: 3px 3px 15px 3px gray;
+    }
+    .destinoNordico{
+        
+        margin: 30px;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+        background-color: rgba(255, 255, 255, 0.747);
+        
+        box-shadow: 3px 3px 15px 3px gray;
+    }
 
+    .suscripciones{
+
+        padding-top: 40px;
+        padding-bottom: 13%;
+    }
 
 
 }
