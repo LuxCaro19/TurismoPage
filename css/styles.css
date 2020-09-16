@@ -259,12 +259,30 @@ body{
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.cajaInfoEst{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 .infoEstudiante img{
 
-    width: 200px;
+    width: 180px;
+
+}
+
+.imagenEs{
+
+    display: flex;
+    justify-content: flex-end;
+   
 
 }
 
@@ -339,6 +357,29 @@ body{
 
         padding: 20px;
     }
+
+    
+    .suscripciones input{
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    
+    }
+    
+    .suscripciones button{
+    
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    
+    }
+
+
 
 
 
